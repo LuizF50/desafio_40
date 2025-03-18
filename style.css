@@ -1,0 +1,56 @@
+/* style.css */
+body {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Usa toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    display: flex; /* Ativa Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.container {
+    width: 90%; /* Ajuste para telas menores */
+    max-width: 400px; /* Limite máximo de largura */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Torna o fundo mais opaco */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Suaviza sombra para destacar o container */
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px); /* Ajusta largura com base no padding */
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
